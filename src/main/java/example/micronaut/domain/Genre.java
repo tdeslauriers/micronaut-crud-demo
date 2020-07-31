@@ -22,9 +22,10 @@ public class Genre {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	
+	 
+	// removing unique constraint so i can load up the db with repetitive array;
 	@NotNull
-	@Column(name = "name", nullable = false, unique = true)
+	@Column(name = "name", nullable = false) //, unique = true)
 	private String name;
 	
 	@JsonIgnore

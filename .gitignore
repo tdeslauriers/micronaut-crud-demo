@@ -1,0 +1,60 @@
+Thumbs.db
+.DS_Store
+.gradle
+build/
+target/
+out/
+.idea
+*.iml
+*.ipr
+*.iws
+.project
+.settings
+.classpath
+
+# Maven
+**/target/
+**/.mvn/**
+!.mvn/wrapper/maven-wrapper.jar
+
+# gradle
+.gradle
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.metadata
+
+# IntelliJ IDEA
+**/.idea
+**/*.iws
+**/*.iml
+**/*.ipr
+
+# NPM
+**/dist/
+**/node_modules/
+**/npm-debug.log*
+**/yarn-error.log*
+
+# IDEs
+**/.idea/
+**/jsconfig.json
+**/.vscode/
+**/nbactions.xml
+
+# Typings file.
+**/typings/
+
+# Misc
+**/tmp/
+
+
+# Micronaut
+**/dependency-reduced-pom.xml
+**/bin/
